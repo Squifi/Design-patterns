@@ -1,0 +1,16 @@
+2016-06-18 15:58:22,038 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.squifi.designpatterns:simple:1.0-SNAPSHOT @ C:\Users\Ben Mc Dougall\workspace\Design Patterns\simple\pom.xml.
+2016-06-18 15:58:23,066 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/main/java
+2016-06-18 15:58:23,074 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/test/java
+2016-06-18 15:58:23,705 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2016-06-18 15:58:24,423 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-18 15:58:24,424 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben Mc Dougall\workspace\Design Patterns\simple\src\main\resources
+2016-06-18 15:58:24,426 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-18 15:58:24,426 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben Mc Dougall\workspace\Design Patterns\simple\src\test\resources
+2016-06-18 15:59:43,113 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-18 15:59:43,114 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben Mc Dougall\workspace\Design Patterns\simple\src\main\resources
+2016-06-18 15:59:43,115 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-18 15:59:43,115 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben Mc Dougall\workspace\Design Patterns\simple\src\test\resources
+2016-06-18 16:02:58,107 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-18 16:02:58,107 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben Mc Dougall\workspace\Design Patterns\simple\src\main\resources
+2016-06-18 16:02:58,108 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-18 16:02:58,108 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben Mc Dougall\workspace\Design Patterns\simple\src\test\resources

@@ -1,13 +1,14 @@
 package org.squifi.designpatterns;
 
-/**
- * Hello world!
- *
- */
+import org.squifi.factorymethod.Hammer;
+import org.squifi.factorymethod.Iweapon;
+import org.squifi.factorymethod.Sword;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Iweapon weapon = Hammer.create();
+    	System.out.println(weapon.toString());
     }
 }

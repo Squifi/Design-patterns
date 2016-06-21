@@ -3,8 +3,6 @@ package org.squifi.weapons.implementations;
 import org.squifi.weapons.common.Iweapon;
 import org.squifi.weapons.common.WeaponImpl;
 
-import junit.framework.Assert;
-
 public class Sword extends WeaponImpl {
 
 	private Sword() {

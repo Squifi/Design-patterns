@@ -1,18 +1,18 @@
 package org.squifi.designpatterns;
 
+import org.springframework.context.annotation.*;
 import org.squifi.weapons.common.Iweapon;
 import org.squifi.weapons.implementations.Hammer;
-import org.squifi.weapons.implementations.Sword;
 
+@Configuration
+@ComponentScan
 public class App 
 {
+	
     public static void main( String[] args )
     {
     	// Factory Method examples
-    	Iweapon dagger = Sword.create();
     	Iweapon hammer = Hammer.create();
-
-    	System.out.println(dagger.attack());
     	System.out.println(hammer.attack());
     }
 }

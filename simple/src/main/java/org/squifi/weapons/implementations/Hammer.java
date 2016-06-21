@@ -7,7 +7,7 @@ public class Hammer extends WeaponImpl {
 
 	private Hammer(){
 		name = "Thor's Hammer";
-		damage = 50;
+		
 	}
 	
 	public static Iweapon create() {

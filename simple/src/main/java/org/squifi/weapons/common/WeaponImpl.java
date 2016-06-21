@@ -1,13 +1,11 @@
 package org.squifi.weapons.common;
 
-import junit.framework.Assert;
-
 public abstract class WeaponImpl implements Iweapon {
 
 	protected String name = "weapon";
 	void setName(String value) {
-		Assert.assertTrue(value.length() > 0);
-		Assert.assertNotNull(value);
+		assert(value.length() > 0);
+		assert(value != " ");
 
 		name = value;
 	}
@@ -18,8 +16,7 @@ public abstract class WeaponImpl implements Iweapon {
 	
 	protected int damage = 10;
 	void setDamage(int value) {
-		Assert.assertNotNull(value);
-		Assert.assertTrue(value > 0);
+		assert(value > 0);
 		
 		damage = value;
 	}

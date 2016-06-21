@@ -9,7 +9,7 @@ public class Sword extends WeaponImpl {
 		name = "Sword";
 		damage = 20;
 	}
-	
+
 	public static Iweapon create() {
 		return new Sword();
 	}

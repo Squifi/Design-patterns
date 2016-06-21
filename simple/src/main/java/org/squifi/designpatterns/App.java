@@ -1,14 +1,18 @@
 package org.squifi.designpatterns;
 
-import org.squifi.factorymethod.Hammer;
-import org.squifi.factorymethod.Iweapon;
-import org.squifi.factorymethod.Sword;
+import org.squifi.weapons.common.Iweapon;
+import org.squifi.weapons.implementations.Hammer;
+import org.squifi.weapons.implementations.Sword;
 
 public class App 
 {
     public static void main( String[] args )
     {
-    	Iweapon weapon = Hammer.create();
-    	System.out.println(weapon.toString());
+    	// Factory Method examples
+    	Iweapon dagger = Sword.create();
+    	Iweapon hammer = Hammer.create();
+
+    	System.out.println(dagger.attack());
+    	System.out.println(hammer.attack());
     }
 }

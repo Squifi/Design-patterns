@@ -1,12 +1,12 @@
-package org.squifi.factorymethod;
+package org.squifi.weapons.common;
 
 public interface Iweapon {
-	
-	void increaseDamage(int damage);
-	
-	void decreaseDamage(int damage);
 	
 	int dealDamage();
 	
 	int getDamage();
+	
+	String performAction();
+	
+	String attack();
 }

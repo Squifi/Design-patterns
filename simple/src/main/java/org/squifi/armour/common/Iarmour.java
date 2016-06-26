@@ -8,7 +8,9 @@ public interface Iarmour {
 
 	String GetArmourName();
 
-	void takeDamage(int damage, HashSet<DamageType> damageType);
+	void takeDamage(int damage, DamageType damageType);
 	
 	HashSet<DamageType> Resistance();
+	
+	void SetResistance(DamageType damageType);
 }

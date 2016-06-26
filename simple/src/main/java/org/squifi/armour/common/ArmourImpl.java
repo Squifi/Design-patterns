@@ -20,21 +20,28 @@ public class ArmourImpl implements Iarmour {
 	}
 
 	@Override
-	public void takeDamage(int damage, HashSet<DamageType> damageType) {
-		for(DamageType dt: damageType)
-		{
-			if (this.damageType.contains(dt) )
+	public void takeDamage(int damage, DamageType damageType) {
+			if ( this.damageType.contains(damageType) )
 			{
 				// TODO: Currently static damage, needs a better solution
 				// Also the iteration over damageTypes is Mediocre
 				this.damage = damage * 0.5;
 			}
-		}
+			else 
+			{
+				this.damage = damage;
+			}
 	}
 
 	@Override
 	public HashSet<DamageType> Resistance() {
 		return damageType;
+	}
+	
+	@Override
+	public void SetResistance(DamageType damageType)
+	{
+		this.damageType.add(damageType);
 	}
 
 }

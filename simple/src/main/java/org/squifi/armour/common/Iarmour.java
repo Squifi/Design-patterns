@@ -10,6 +10,8 @@ public interface Iarmour {
 
 	void takeDamage(int damage, DamageType damageType);
 	
+	double getRemainingProtection();
+	
 	HashSet<DamageType> Resistance();
 	
 	void SetResistance(DamageType damageType);

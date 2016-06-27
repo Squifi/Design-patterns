@@ -6,7 +6,7 @@ import java.util.HashSet;
 public class ArmourImpl implements Iarmour {
 
 	private HashSet<DamageType> damageType = new HashSet<DamageType>();
-	private double damage = 0;
+	private double damage = 50;
 	private String armourName = "Basic Armour";
 	
 	@Override
@@ -42,6 +42,11 @@ public class ArmourImpl implements Iarmour {
 	public void SetResistance(DamageType damageType)
 	{
 		this.damageType.add(damageType);
+	}
+	
+	
+	public double getRemainingProtection(){
+		return damage;
 	}
 
 }
